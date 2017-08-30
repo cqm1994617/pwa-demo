@@ -1,16 +1,20 @@
-var cacheStorageKey = 'minimal-pwa-1'
+var cacheStorageKey = 'minimal-pwa-2'
 
-var cacheList = [
-  '/',
-  "index.html",
-  "main.css",
-  "e.png"
-]
-console.log(self)
+/*var cacheList = [
+  '/'
+];
+
+console.log(self);
+console.log(caches);
+
 self.addEventListener('install', e => {
   e.waitUntil(
     caches.open(cacheStorageKey)
       .then(cache => cache.addAll(cacheList))
       .then(() => self.skipWaiting())
   )
-})
+});*/
+
+/*self.onfetch = (e) => {
+  e.respondWith(new Response('Hello World3!'))
+}*/

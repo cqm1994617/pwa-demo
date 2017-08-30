@@ -1,7 +1,7 @@
 {
   "name": "Minimal app to try PWA",
   "short_name": "测试",
-  "display": "standalone",
+  "display": "fullscreen",
   "start_url": "/pwa-demo/",
   "theme_color": "#8888ff",
   "background_color": "#aaaaff"
