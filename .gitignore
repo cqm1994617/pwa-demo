@@ -1,0 +1,12 @@
+dea
+.DS_Store
+.vscode
+.history/
+npm-debug.log
+/build
+/upload/*
+/node_modules
+/server/views
+/server/coverage
+/coverage
+
